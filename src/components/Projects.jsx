@@ -10,10 +10,10 @@ import whitee from '../assets/images/whitee.jpg'; // Import the image
 
 
 const projectsData = [
-  { name: 'LUMEO', img: lumeo, projectUrl: 'projects/project 3 calc/calc.html', githubUrl: '#' },
+  { name: 'LUMEO', img: lumeo, projectUrl: 'projects/project 3 calc/calc.html', githubUrl: 'https://github.com/Gauri-Nagariya/Lumeo' },
   { name: 'WEATHER APP', img: cc, projectUrl: '#', githubUrl: 'https://github.com/Gauri-Nagariya/Weather-Forecast-Web-App.git' },
   { name: 'CURRENCY CONVERTER', img: black, projectUrl: 'projects/currency_converter/index.html', githubUrl: 'https://github.com/Gauri-Nagariya/Currency-converter.git' },
-  { name: 'PORTFOLIO WEBSITE', img: white , projectUrl: '#', githubUrl: '#' },
+  { name: 'PORTFOLIO WEBSITE', img: white , projectUrl: '#', githubUrl: 'https://github.com/Gauri-Nagariya/portfolio.git' },
   { name: 'CHROME UTILITY EXTENSION', img: blackk, projectUrl: 'projects/tic-tac-toe/index.html', githubUrl: 'https://github.com/Gauri-Nagariya/Chrome-Utility-Extension-Reading-Mode-.git' },
   { name: 'CHROME UTILITY EXTENSION', img: whitee , projectUrl: '#', githubUrl: 'https://github.com/Gauri-Nagariya/Chrome-Utility-Extension-Font-Identifier-.git' },
 ];
@@ -43,7 +43,7 @@ const Projects = () => {
             <div className="relative z-10 flex-1 flex flex-col justify-center items-center bg-black/10 dark:bg-black/50 bg-opacity-10 p-6 text-center">
               <p className="text-xl font-bold mb-4">{project.name}</p>
               <div className="space-y-2">
-                <a
+                {/* <a
                   href={project.projectUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -53,8 +53,8 @@ const Projects = () => {
                     transition-colors duration-300
                   `}
                 >
-                  {/* View Project
-                </a>
+                  View Project
+                </a> */}
                 <a
                   href={project.githubUrl}
                   target="_blank"
@@ -64,7 +64,7 @@ const Projects = () => {
                     text-orange-500 hover:text-orange-500
                     transition-colors duration-300
                   `}
-                > */}
+                >
                   GitHub
                 </a>
               </div>
