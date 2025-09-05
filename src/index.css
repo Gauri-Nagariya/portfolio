@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+/*
+  This adds the custom CSS for the random hover color.
+  It works by using a CSS variable defined in the React component.
+*/
+
+a:hover {
+    color: var(--hover-color) !important;
+  }
