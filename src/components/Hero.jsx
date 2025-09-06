@@ -20,26 +20,42 @@ const Hero = () => {
     };
 
     const typingSpeed = isDeleting ? 50 : 100;
-    const delay = isDeleting ? 100 : 1000;
     const timer = setTimeout(handleTyping, typingSpeed);
 
     return () => clearTimeout(timer);
   }, [typedText, isDeleting, index, fullText]);
 
   return (
-    <section id="hero" className="min-h-screen flex flex-col items-center justify-center p-8">
-      <div className="text-center">
-        <h1 className="text-4xl sm:text-6xl font-bold">Hey, I'm Gauri Nagariya!</h1>
-        <div className="my-4">
-          <p className="text-2xl sm:text-4xl text-orange-500 font-extrabold inline-block">
-            {typedText}
-          </p>
-          <span className="inline-block animate-pulse w-2 h-8 bg-orange-500 ml-1"></span>
-        </div>
-        <p className="text-lg sm:text-xl max-w-2xl mx-auto">
-          I love building interactive and visually appealing web experiences using React, Tailwind CSS, and JavaScript. Passionate about crafting seamless UI/UX designs that enhance user engagement.
+    <section id="hero" className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-8 py-12 text-center">
+      <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
+        Hey, I'm Gauri Nagariya!
+      </h1>
+
+      {/* Typing Text */}
+      <div className="my-4 flex items-center justify-center min-h-[2.5rem] sm:min-h-[3.5rem]">
+        <p className="text-2xl sm:text-4xl text-orange-500 font-extrabold inline-block">
+          {typedText || '\u00A0'}
         </p>
+        <span className="inline-block animate-pulse w-2 h-6 sm:h-8 bg-orange-500 ml-1"></span>
       </div>
+
+      {/* Description */}
+      <p className="text-base sm:text-lg max-w-md sm:max-w-2xl mx-auto px-2">
+        I love building interactive and visually appealing web experiences using React, Tailwind CSS, and JavaScript. Passionate about crafting seamless UI/UX designs that enhance user engagement.
+      </p>
+
+      {/* Download Resume Button - Always Visible */}
+      <a
+        href="certificates/resume.pdf"
+        download
+        className="inline-block mt-8 px-4 py-2 rounded-full font-bold text-white text-sm shadow-lg transition-transform duration-300 hover:scale-105"
+        style={{
+          background: 'linear-gradient(90deg, #f58529 0%, #dd2a7b 50%, #8134af 100%)',
+          border: 'none',
+        }}
+      >
+        DOWNLOAD RESUME
+      </a>
     </section>
   );
 };

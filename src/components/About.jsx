@@ -5,9 +5,13 @@ const About = () => {
   return (
     <section id="about" className="bg-white text-gray-800 py-20 px-4 sm:px-8 lg:px-16">
       <div className="flex flex-col lg:flex-row items-center lg:items-start max-w-6xl mx-auto">
-        <div className="w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-8 text-center">
-          <img src={aboutImg} alt="Gauri Nagariya" className="rounded-lg mt-30 max-w-full h-auto mx-auto" />
-        </div>
+       <div className="w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-8 text-center">
+  <img
+    src={aboutImg}
+    alt="Gauri Nagariya"
+    className="rounded-lg mt-10 sm:mt-8 md:mt-6 lg:mt-4 mx-auto w-4/5 sm:w-3/4 md:w-2/3 lg:w-full h-auto"
+  />
+</div>
         <div className="w-full lg:w-1/2">
           <h2 className="text-4xl font-bold mb-6 text-center lg:text-left">ABOUT</h2>
           <p className="text-lg mb-4 text-justify">

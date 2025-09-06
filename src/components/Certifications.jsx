@@ -72,35 +72,38 @@ const Certifications = () => {
   const certsToShow = showAll ? reversedCerts : reversedCerts.slice(0, 3);
 
   return (
-    <section id="certifications" className="bg-black text-white py-20 pl-6 flex flex-col items-start">
+    // <section id="certifications" className="bg-black text-white py-20 pl-6 flex flex-col items-start">
+    <section id="certifications" className="bg-black text-white py-20 px-4 sm:px-8 scroll-mt-24">
       <h2 className="text-4xl font-bold mb-12 ml-8 text-left">ACHIEVEMENT & CERTIFICATIONS</h2>
       <div className="max-w-4xl w-full space-y-12 pl-8">
         {certsToShow.map((cert, index, arr) => (
-          <div key={index} className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-8 relative">
+          // <div key={index} className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-8 relative">
+          <div key={index} className="flex items-start space-x-6 relative">
             {/* Timeline dot and line */}
             <div className="flex-shrink-0 flex flex-col items-center">
-              <div className="w-6 h-6 rounded-full bg-orange-600 shadow-lg mb-2 z-10"></div>
-              {/* Show vertical line except for the last item */}
-              {index !== arr.length  && (
-                <div className="w-0.5 bg-white" style={{ minHeight: '198px' }}></div>
-              )}
-            </div>
+  <div className="w-4 h-4 sm:w-6 sm:h-6 rounded-full bg-orange-600 shadow-lg mb-2 z-10"></div>
+  {index !== arr.length  && (
+    <div className="w-0.5 bg-white" style={{ minHeight: '180px' }}></div>
+  )}
+</div>
+
             {/* Content for the certification */}
-            <div className="text-left w-full">
-              <h3 className="text-2xl font-bold mb-1">{cert.title}</h3>
-              <p className="text-lg font-light text-gray-400 mb-4">{cert.issuer}</p>
-              <p className="text-base">{cert.description}</p>
-              <div className="mt-4 flex space-x-4">
-                <a href={cert.certLink} target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500 transition-colors duration-300">
-                  View Certificate
-                </a>
-                {cert.badgeLink && (
-                  <a href={cert.badgeLink} target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500 transition-colors duration-300">
-                    View Badge
-                  </a>
-                )}
-              </div>
-            </div>
+         <div className="text-left w-full">
+  <h3 className="text-xl sm:text-2xl font-bold mb-1">{cert.title}</h3>
+  <p className="text-base sm:text-lg font-light text-gray-400 mb-4">{cert.issuer}</p>
+  <p className="text-sm sm:text-base">{cert.description}</p>
+  <div className="mt-4 flex flex-wrap gap-4">
+    <a href={cert.certLink} target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500 transition-colors duration-300">
+      View Certificate
+    </a>
+    {cert.badgeLink && (
+      <a href={cert.badgeLink} target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500 transition-colors duration-300">
+        View Badge
+      </a>
+    )}
+  </div>
+</div>
+
           </div>
         ))}
         {!showAll && (
