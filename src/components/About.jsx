@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../assets/images/about_image.jpg'; // Import the image
+import aboutImg from '../assets/images/tcsnqt.jpg'; // Import the image
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
   <img
     src={aboutImg}
     alt="Gauri Nagariya"
-    className="rounded-lg mt-10 sm:mt-8 md:mt-6 lg:mt-4 mx-auto w-4/5 sm:w-3/4 md:w-2/3 lg:w-full h-auto"
+    className="rounded-3xl mt-10 sm:mt-6 md:mt-6 lg:mt-4 mx-auto w-2/3 sm:w-1/2 md:w-1/2 lg:w-1/2 h-70 md:h-60 sm:h-40 lg:h-80"
   />
 </div>
         <div className="w-full lg:w-1/2">

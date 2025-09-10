@@ -11,7 +11,7 @@ const projectsData = [
     name: "LUMEO",
     img: black,
     projectUrl: "projects/project 3 calc/calc.html",
-    githubUrl: "https://github.com/Gauri-Nagariya/Lumeo",
+    githubUrl: "https://github.com/Gauri-Nagariya/Lumeo-text-to-image-generator.git",
   },
   {
     name: "WEATHER APP",

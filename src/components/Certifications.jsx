@@ -57,6 +57,15 @@ const certificationsData = [
     certLink: 'certificates/sql.pdf',
     badgeLink: null,
   },
+
+    {
+    title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+    issuer: 'Amazon Web Services Training and Certification (2025)',
+    description: 'Successfully completed AWS Academy Cloud Architecting, gaining hands-on experience in designing and deploying scalable, secure, and cost-optimized solutions on AWS. Developed skills in applying cloud best practices, building resilient infrastructures, and architecting end-to-end cloud solutions. Credential issued by Amazon Web Services Training and Certification.',
+    certLink: 'certificates/aws.pdf',
+    badgeLink: 'https://www.credly.com/badges/324648b3-305e-4853-a733-a36099ac66d8/public_url',
+  },
+
   {
     title: 'Smart India Hackathon 2024',
     issuer: 'Finalist',
