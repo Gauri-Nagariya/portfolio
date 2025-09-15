@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex justify-center space-x-8 sm:space-x-16">
-        <a href="https://www.linkedin.com/in/gauri-n-22ap4081" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/gauri-nagariya" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="LinkedIn" className="w-12 h-12 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 bg-black " />
         </a>
         <a href="https://github.com/Gauri-Nagariya" target="_blank" rel="noopener noreferrer">

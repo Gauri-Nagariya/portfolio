@@ -10,38 +10,38 @@ const projectsData = [
   {
     name: "LUMEO",
     img: black,
-    projectUrl: "projects/project 3 calc/calc.html",
+    // projectUrl: "projects/project 3 calc/calc.html",
     githubUrl: "https://github.com/Gauri-Nagariya/Lumeo-text-to-image-generator.git",
   },
   {
     name: "WEATHER APP",
     img: cc,
-    projectUrl: "#",
+    projectUrl: "https://weather-forecast-web-app-9kt9.vercel.app",
     githubUrl: "https://github.com/Gauri-Nagariya/Weather-Forecast-Web-App.git",
   },
   {
     name: "CURRENCY CONVERTER",
     img: lumeo,
-    projectUrl: "projects/currency_converter/index.html",
+    // projectUrl: "projects/currency_converter/index.html",
     githubUrl: "https://github.com/Gauri-Nagariya/Currency-converter.git",
   },
   {
     name: "PORTFOLIO WEBSITE",
     img: white,
-    projectUrl: "#",
+    projectUrl: "https://portfolio-gilt-three-66.vercel.app/",
     githubUrl: "https://github.com/Gauri-Nagariya/portfolio.git",
   },
   {
     name: "CHROME UTILITY EXTENSION",
     img: blackk,
-    projectUrl: "projects/tic-tac-toe/index.html",
+    // projectUrl: "projects/tic-tac-toe/index.html",
     githubUrl:
       "https://github.com/Gauri-Nagariya/Chrome-Utility-Extension-Reading-Mode-.git",
   },
   {
     name: "CHROME UTILITY EXTENSION",
     img: whitee,
-    projectUrl: "#",
+    // projectUrl: "#",
     githubUrl:
       "https://github.com/Gauri-Nagariya/Chrome-Utility-Extension-Font-Identifier-.git",
   },
@@ -75,7 +75,7 @@ const Projects = () => {
             <div className="relative z-10 flex-1 flex flex-col justify-center items-center bg-black/10 dark:bg-black/50 bg-opacity-10 p-6 text-center">
               <p className="text-xl font-bold mb-4">{project.name}</p>
               <div className="space-y-2">
-                {/* <a
+                <a
                   href={project.projectUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -86,7 +86,7 @@ const Projects = () => {
                   `}
                 >
                   View Project
-                </a> */}
+                </a> 
                 <a
                   href={project.githubUrl}
                   target="_blank"
