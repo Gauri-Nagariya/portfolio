@@ -8,6 +8,10 @@ import figma from '../assets/images/figma.png';
 import java from '../assets/images/java.png'; 
 import sql from '../assets/images/sql.png'; 
 import github from '../assets/images/github_contact.png'; 
+import exp from '../assets/images/exp.png'; 
+import node from '../assets/images/node.png'; 
+import mdb from '../assets/images/mdb.png'; 
+
 
 const skillsData = [
   { name: 'HTML', img: html },
@@ -15,6 +19,11 @@ const skillsData = [
   { name: 'JAVASCRIPT', img: js },
   { name: 'REACT', img: react },
   { name: 'TAILWIND CSS', img: twcss },
+  
+  { name: 'EXPRESS', img: exp },
+  { name: 'NODE.JS', img: node },
+  { name: 'MONGODB', img: mdb },
+  
   { name: 'JAVA', img: java },
   { name: 'MYSQL', img: sql },
   { name: 'FIGMA', img: figma },
@@ -28,7 +37,8 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Skills &amp; Technologies</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto"> */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
         {skillsData.map((skill, index) => (
           <div
             key={skill.name}
