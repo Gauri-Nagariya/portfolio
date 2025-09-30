@@ -78,7 +78,7 @@ const certificationsData = [
     title: 'Smart India Hackathon 2024',
     issuer: 'Finalist',
     description: 'Represented my college at the national level, where I collaborated with a diverse team to design and present innovative solutions. The experience strengthened my technical expertise, sharpened my project management abilities, and enhanced my teamwork, and communication skills while working under competitive and high-pressure environments.',
-    certLink: 'certificates/introduction to cybersecurity.pdf',
+    certLink: 'certificates/sih.pdf',
     badgeLink: null,
   }
 ];
