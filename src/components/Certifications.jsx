@@ -59,6 +59,14 @@ const certificationsData = [
   },
 
     {
+    title: 'Introduction to Operating System',
+    issuer: 'NPTEL (2025)',
+    description: 'Completed the NPTEL certification course "Introduction to Operating Systems", offered by IITs under the Ministry of Education. Gained knowledge of OS design and implementation, including process and memory management, file systems, concurrency, and synchronization.',
+    certLink: 'certificates/NPTEL.pdf',
+    badgeLink: null,
+  },
+
+    {
     title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
     issuer: 'Amazon Web Services Training and Certification (2025)',
     description: 'Successfully completed AWS Academy Cloud Architecting, gaining hands-on experience in designing and deploying scalable, secure, and cost-optimized solutions on AWS. Developed skills in applying cloud best practices, building resilient infrastructures, and architecting end-to-end cloud solutions. Credential issued by Amazon Web Services Training and Certification.',
