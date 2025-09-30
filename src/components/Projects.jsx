@@ -10,7 +10,7 @@ const projectsData = [
   {
     name: "LUMEO",
     img: black,
-    // projectUrl: "projects/project 3 calc/calc.html",
+    projectUrl: "https://lumeo-text-to-image-generator.vercel.app",
     githubUrl: "https://github.com/Gauri-Nagariya/Lumeo-text-to-image-generator.git",
   },
   {
@@ -22,7 +22,7 @@ const projectsData = [
   {
     name: "CURRENCY CONVERTER",
     img: lumeo,
-    // projectUrl: "projects/currency_converter/index.html",
+    projectUrl: "https://currency-converter-sepia-eight.vercel.app/",
     githubUrl: "https://github.com/Gauri-Nagariya/Currency-converter.git",
   },
   {
