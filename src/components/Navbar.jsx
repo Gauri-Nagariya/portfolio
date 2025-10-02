@@ -17,9 +17,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-black/40 backdrop-blur-md z-50 py-4 sm:py-6 px-4 sm:px-8 shadow-lg">
+    <nav className="fixed top-0 w-full bg-black/40 backdrop-blur-md z-50 py-4 sm:py-6 px-6 sm:px-8 shadow-lg">
       {/* <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-12 text-sm sm:text-xl font-semibold tracking-widest"> */}
-      <ul className="flex justify-center space-x-3 sm:space-x-12 font-semibold px-2 sm:px-0">
+      <ul className="flex justify-center space-x-2 sm:space-x-12 font-semibold px-2 sm:px-0">
 
         <li>
           <a
