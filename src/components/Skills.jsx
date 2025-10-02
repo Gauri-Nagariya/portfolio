@@ -38,7 +38,7 @@ const Skills = () => {
     <section id="skills" className="bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Skills &amp; Technologies</h2>
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto"> */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
         {skillsData.map((skill, index) => (
           <div
             key={skill.name}
