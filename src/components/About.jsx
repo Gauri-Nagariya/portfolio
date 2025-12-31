@@ -15,7 +15,8 @@ const About = () => {
         <div className="w-full lg:w-1/2">
           <h2 className="text-4xl font-bold mb-6 text-center lg:text-left">ABOUT</h2>
           <p className="text-lg mb-4 text-justify">
-            I'm an engineering student with a keen interest in how technology shapes modern businesses. I enjoy working on projects that mix logic, design, and problem-solving. Along the way, I’ve picked up skills in web development, explored concepts like cybersecurity and AI through certifications, and gained a better understanding of how systems work behind the scenes.
+            {/* I'm an engineering student with a keen interest in how technology shapes modern businesses. I enjoy working on projects that mix logic, design, and problem-solving. Along the way, I’ve picked up skills in web development, explored concepts like cybersecurity and AI through certifications, and gained a better understanding of how systems work behind the scenes. */}
+            I am passionate about building complete web solutions that combine clean, responsive interfaces with efficient and scalable backend systems. I enjoy working across the full stack, blending logic, design, and problem-solving to create applications that are both user-friendly and technically robust. My experience includes developing web applications with a strong focus on performance, usability, and maintainable code.
           </p>
           <div className="mt-8">
             <h3 className="text-2xl font-bold mb-2">Education</h3>
@@ -28,13 +29,15 @@ const About = () => {
           <div className="mt-8">
             <h3 className="text-2xl font-bold mb-2">Career Goals & Aspirations</h3>
             <p className="text-lg text-justify">
-              To build a career in enterprise technology where I can blend my technical skills with business understanding, while continuously learning and contributing to impactful solutions.
+              {/* To build a career in enterprise technology where I can blend my technical skills with business understanding, while continuously learning and contributing to impactful solutions. */}
+              To grow as a full-stack developer in an enterprise environment where I can apply my technical skills, deepen my system-level understanding, and contribute to building reliable, high-impact software solutions.
             </p>
           </div>
           <div className="mt-8">
             <h3 className="text-2xl font-bold mb-2">Hobbies & Interests</h3>
             <p className="text-lg">
-              Painting | Photography | diary writing 
+              Painting | Photography
+               {/* | diary writing  */}
             </p>
           </div>
         </div>

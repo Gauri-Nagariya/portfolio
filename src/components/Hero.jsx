@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
-  const fullText = "Frontend Developer";
+  const fullText = "Full Stack Developer";
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -40,8 +40,9 @@ const Hero = () => {
       </div>
 
       {/* Description */}
-      <p className="text-base sm:text-lg max-w-md sm:max-w-2xl mx-auto px-2">
-        I love building interactive and visually appealing web experiences using React, Tailwind CSS, and JavaScript. Passionate about crafting seamless UI/UX designs that enhance user engagement.
+      <p className="text-base sm:text-lg max-w-md sm:max-w-2xl mx-auto px-8">
+        {/* I love building interactive and visually appealing web experiences using React, Tailwind CSS, and JavaScript. Passionate about crafting seamless UI/UX designs that enhance user engagement. */}
+        I love building interactive and scalable web applications using modern frontend and backend technologies. I’m passionate about crafting seamless user experiences supported by efficient, secure, and well-structured server-side logic.
       </p>
 
       {/* Download Resume Button - Always Visible */}

@@ -11,14 +11,22 @@ import github from '../assets/images/github_contact.png';
 import exp from '../assets/images/exp.png'; 
 import node from '../assets/images/node.png'; 
 import mdb from '../assets/images/mdb.png'; 
+import redux from '../assets/images/redux-icon.png'
+import nextjs from '../assets/images/nextjs-icon.png'
+import bootstrap from '../assets/images/icons8-bootstrap-96.png'
+import postman from '../assets/images/postman-icon.png'
+
 
 
 const skillsData = [
   { name: 'HTML', img: html },
   { name: 'CSS', img: css },
   { name: 'JAVASCRIPT', img: js },
-  { name: 'REACT', img: react },
+  { name: 'REACT.JS', img: react },
+  { name: 'REDUX', img: redux },
+  { name: 'NEXT.JS', img: nextjs },
   { name: 'TAILWIND CSS', img: twcss },
+  { name: 'BOOTSTRAP', img: bootstrap },
   
   { name: 'EXPRESS', img: exp },
   { name: 'NODE.JS', img: node },
@@ -26,7 +34,8 @@ const skillsData = [
   
   { name: 'JAVA', img: java },
   { name: 'MYSQL', img: sql },
-  { name: 'FIGMA', img: figma },
+  // { name: 'FIGMA', img: figma },
+  { name: 'POSTMAN', img: postman },
   { name: 'GITHUB', img: github },
   // { name: 'VS CODE', img: 'images/vs code.png' },
 ];
@@ -36,13 +45,13 @@ const Skills = () => {
 
   return (
     <section id="skills" className="bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
-      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Skills &amp; Technologies</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Skills &amp; TECHNOLOGIES</h2>
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto"> */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto">
         {skillsData.map((skill, index) => (
           <div
             key={skill.name}
-            className="relative bg-black/70 rounded-xl shadow-md flex flex-col items-center justify-center text-center h-20 sm:h-24 md:h-24 w-full font-medium text-base sm:text-lg transition-all duration-200 border border-[#f3f3f3]/30 hover:shadow-lg hover:shadow-[#232b3a]/60 hover:-translate-y-1 backdrop-blur-md cursor-pointer overflow-hidden"
+            className="relative bg-black/70 rounded-xl shadow-md flex flex-col items-center justify-center text-center h-18 sm:h-24 md:h-24 w-full font-medium text-[12px] sm:text-lg transition-all duration-200 border border-[#f3f3f3]/30 hover:shadow-lg hover:shadow-[#232b3a]/60 hover:-translate-y-1 backdrop-blur-md cursor-pointer overflow-hidden"
             onMouseEnter={() => setHovered(index)}
             onMouseLeave={() => setHovered(null)}
           >

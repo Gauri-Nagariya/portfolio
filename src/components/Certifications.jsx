@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 
 const certificationsData = [
-  {
-    title: 'Introduction to Cybersecurity',
-    issuer: 'Cisco (2023)',
-    description: 'Gained a foundational understanding of cybersecurity concepts, including cyber threats, attack vectors, and defense mechanisms. Explored the importance of network security, ethical hacking, and risk management, equipping me with the knowledge to identify and mitigate cyber risks.',
-    certLink: 'certificates/introduction to cybersecurity.pdf',
-    badgeLink: null,
-  },
-  {
-    title: 'Cybersecurity Essentials',
-    issuer: 'Cisco (2023)',
-    description: 'Developed a deeper understanding of core cybersecurity principles, covering cryptography, endpoint protection, network security, and incident response. Acquired practical skills in identifying vulnerabilities, implementing security measures, and safeguarding digital assets.',
-    certLink: 'certificates/cybersecurity essentials.pdf',
-    badgeLink: null,
-  },
+  // {
+  //   title: 'Introduction to Cybersecurity',
+  //   issuer: 'Cisco (2023)',
+  //   description: 'Gained a foundational understanding of cybersecurity concepts, including cyber threats, attack vectors, and defense mechanisms. Explored the importance of network security, ethical hacking, and risk management, equipping me with the knowledge to identify and mitigate cyber risks.',
+  //   certLink: 'certificates/introduction to cybersecurity.pdf',
+  //   badgeLink: null,
+  // },
+  // {
+  //   title: 'Cybersecurity Essentials',
+  //   issuer: 'Cisco (2023)',
+  //   description: 'Developed a deeper understanding of core cybersecurity principles, covering cryptography, endpoint protection, network security, and incident response. Acquired practical skills in identifying vulnerabilities, implementing security measures, and safeguarding digital assets.',
+  //   certLink: 'certificates/cybersecurity essentials.pdf',
+  //   badgeLink: null,
+  // },
   {
     title: 'Web Development Workshop',
     issuer: 'Microsoft Learn Student Ambassador (2024)',
@@ -90,7 +90,7 @@ const Certifications = () => {
 
   return (
     // <section id="certifications" className="bg-black text-white py-20 pl-6 flex flex-col items-start">
-    <section id="certifications" className="bg-black text-white py-20 px-4 sm:px-8 scroll-mt-24">
+    <section id="certifications" className="bg-black text-white py-20 px-4 sm:px-8 scroll-mt-2">
       <h2 className="text-4xl font-bold mb-12 ml-8 text-left">ACHIEVEMENT & CERTIFICATIONS</h2>
       <div className="max-w-4xl w-full space-y-12 pl-8">
         {certsToShow.map((cert, index, arr) => (

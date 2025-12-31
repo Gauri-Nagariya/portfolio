@@ -7,43 +7,49 @@ import blackk from "../assets/images/blackk.jpg"; // Import the image
 import whitee from "../assets/images/whitee.jpg"; // Import the image
 
 const projectsData = [
-  {
-    name: "LUMEO",
+    {
+    name: "CAREERBOARD - A Job Application Tracker Web Application",
     img: black,
+    projectUrl: "https://job-application-tracker-lemon-eight.vercel.app/",
+    githubUrl: "https://github.com/Gauri-Nagariya/JobApplicationTracker",
+  },
+    {
+    name: "MYDRIVE - Drive Backend Project",
+    img: whitee,
+    projectUrl: "https://drive-x6zy.onrender.com",
+    githubUrl:
+      "https://github.com/Gauri-Nagariya/Drive_BackendProject",
+  },
+  {
+    name: "LUMEO - AI-Powered Text to Image Generator",
+    img: blackk,
     projectUrl: "https://lumeo-text-to-image-generator.vercel.app",
     githubUrl: "https://github.com/Gauri-Nagariya/Lumeo-text-to-image-generator.git",
   },
   {
-    name: "WEATHER APP",
+    name: "WEATHER APP - Real-Time Weather Forecast & Interactive Map",
     img: cc,
     projectUrl: "https://weather-forecast-web-app-9kt9.vercel.app",
     githubUrl: "https://github.com/Gauri-Nagariya/Weather-Forecast-Web-App.git",
   },
   {
-    name: "CURRENCY CONVERTER",
+    name: "SHORTIFY - Secure URL Shortening & QR Code Generator",
     img: lumeo,
-    projectUrl: "https://currency-converter-sepia-eight.vercel.app/",
-    githubUrl: "https://github.com/Gauri-Nagariya/Currency-converter.git",
+    projectUrl: "https://shortify-two.vercel.app/",
+    githubUrl: "https://github.com/Gauri-Nagariya/shortify",
   },
+  // {
+  //   name: "PORTFOLIO WEBSITE",
+  //   img: white,
+  //   projectUrl: "https://portfolio-gilt-three-66.vercel.app/",
+  //   githubUrl: "https://github.com/Gauri-Nagariya/portfolio.git",
+  // },
   {
-    name: "PORTFOLIO WEBSITE",
+    name: "NOTES TAKER APP - File-Based Notes Management Web Application",
     img: white,
-    projectUrl: "https://portfolio-gilt-three-66.vercel.app/",
-    githubUrl: "https://github.com/Gauri-Nagariya/portfolio.git",
-  },
-  {
-    name: "CHROME UTILITY EXTENSION",
-    img: blackk,
     // projectUrl: "projects/tic-tac-toe/index.html",
     githubUrl:
-      "https://github.com/Gauri-Nagariya/Chrome-Utility-Extension-Reading-Mode-.git",
-  },
-  {
-    name: "CHROME UTILITY EXTENSION",
-    img: whitee,
-    // projectUrl: "#",
-    githubUrl:
-      "https://github.com/Gauri-Nagariya/Chrome-Utility-Extension-Font-Identifier-.git",
+      "https://github.com/Gauri-Nagariya/notes-taker",
   },
 ];
 
