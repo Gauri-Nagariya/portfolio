@@ -29,7 +29,7 @@ const projectsData = [
   {
     name: "WEATHER APP - Real-Time Weather Forecast & Interactive Map",
     img: cc,
-    projectUrl: "https://weather-forecast-web-app-9kt9.vercel.app",
+    projectUrl: "https://weather-forecast-web-app-mu.vercel.app",
     githubUrl: "https://github.com/Gauri-Nagariya/Weather-Forecast-Web-App.git",
   },
   {
